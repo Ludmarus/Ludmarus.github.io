@@ -5,9 +5,14 @@
     <meta name="description" content="Bienvenido a Ludmarus">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="favicon.ico?" type="image/x-icon" />
+    <link rel="icon" href="Assets/favicon.ico?" type="image/x-icon" />
 
-    <style> * {
+
+    <style>
+/* Custom fonts */
+        @import url(Assets/Fonts/Streetwear.otf);
+
+        * {
             box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -19,7 +24,7 @@
         }
 
 
-/* Header*/
+/* Header */
         .header {
             overflow: hidden;
             background-color: #e71d36;
@@ -29,7 +34,7 @@
             margin: 0px 14px 0px 14px;
         }
 
-/* Navigation bar (nav)*/
+/* Navigation bar (nav) */
         .nav {
             overflow: hidden;
             background-color: #e71d36;
@@ -49,6 +54,8 @@
             text-align: center;
             padding: 12px 16px;
             text-decoration: none;
+            
+            font-family: Streetwear;
         }
 
 /* Color on hover (nav) */
@@ -60,11 +67,18 @@
             color: white;
         }
 
-/* Content */
-        .content {
+/* Content1 */
+        .content1 {
             background-color: #011627;
             color: #fdfffc;
             padding: 16px 7%;
+        }
+
+/* Image1 */
+        .image1 {
+            background-image: url(Assets/Bgvector1.svg);
+            background-repeat: no-repeat;
+            padding: 128px 7%;
         }
 
 /* Footer */
@@ -83,27 +97,27 @@
 
     <div class="header">
         <img
-            src="Logoblue.svg"
+            src="Assets/Logoblue.svg"
             alt="Ludmarus"
             width="255" />
     </div>
 
     <div class="nav">
         <a href="/">Inicio</a>
-        <a class="active" href="test"><b>Página de prueba</b></a>
+        <a class="active" href="test">Página de prueba</a>
 
         <a style="float:right" href="https://twitter.com/Ludmarus">Twitter</a>
         <a style="float:right" href="https://www.youtube.com/channel/UCubiv5LKWu809e1uvzfNyZg">Youtube</a>
         <a style="float:right" href="https://steamcommunity.com/id/ludmarus/">Steam</a>
     </div>
 
-    <div class="content">
-        <h2>Prueba.</h2>
-        <p>Esta página está en construcción.</p>
+    <div class="content1">
+        <h2>Test</h2>
+        <p>Test</p>
     </div>
 
     <div class="footer">
-        <p>Ludmarus 2021</p>
+        <p>By Ludmarus 2021</p>
     </div>
 
 </body>
