@@ -5,8 +5,8 @@
 
         @font-face {
             font-family: 'Streetwear';
-            src:url(./Assets/Fonts/Streetwear.woff) format("woff"),
-                url(./Assets/Fonts/Streetwear.ttf) format("truetype");
+            src:url(../Assets/Fonts/Streetwear.woff) format("woff"),
+                url(../Assets/Fonts/Streetwear.ttf) format("truetype");
         }
 
         body {
@@ -61,7 +61,7 @@
         }
 
         .image1 {
-            background-image: url(Assets/Bgvector1.svg);
+            background-image: url(../Assets/Bgvector1.svg);
             padding: 128px 7%;
 
             background-position: center;
