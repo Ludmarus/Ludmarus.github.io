@@ -32,6 +32,7 @@
             margin: 0px 14px 0px 14px;
             position: sticky;
             top: 0;
+            box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.19);
         }
 
         .nav a {
@@ -39,44 +40,32 @@
             display: block;
             color: #fdfffc;
             text-align: center;
-            padding: 12px 16px;
+            padding: 10px 18px 14px 18px;
             text-decoration: none;
             
             font-family: 'Streetwear', Helvetica;
         }
 
         .nav a:hover:not(.active) {
-            background-color: #b9182a;
-            color: white;
+            background-color: #cf1a30;
+            color: #e3e5e2;
         }
 
         .active {
-            color: white;
+            color: fdfffc;
         }
 
-        .content1 {
+        .content {
             background-color: #011627;
             color: #fdfffc;
-            padding: 16px 7%;
-        }
-
-        .image1 {
-            background-image: url(../Assets/Bgvector1.svg);
-            padding: 128px 7%;
-
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            
-            background-size: cover;
-
-            font-family: 'Streetwear', Helvetica;
+            padding: 32px 7% 42px;
+            font-size:larger;
         }
 
        .footer {
-            background-color: #011627;
+            background-color: #001323;
             color: #fdfffc;
             text-align: center;
-            padding: 10px 7%;
-            font-size: 12px;
+            padding: 36px 7% 8px;
+            font-size: smaller;
         }
