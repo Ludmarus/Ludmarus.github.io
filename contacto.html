@@ -14,59 +14,90 @@
             text-align: center;
             padding: 32px 7% 14px;
         }
+
         .links a {
             text-align: center;
             display: block;
-            color: #fdfffc;
+            color: #011627;
             text-decoration: none; 
             font-family: Streetwear, Helvetica;
             font-size: larger;
             padding: 0px 0px 16px;
         }
         .links a:hover {
-            color: #e71d36;
+            color: #cf1a30;
         }
         .title1 {
-            background-image: url(Assets/Bg/Squares.png);
-            padding: 32px 7%;
+            background-image: url(Assets/Bg/Dotsb2.png);
+            padding: 4px 7%;
             margin: 32px 0px;
 
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
-            background-color: #011627;
-            font-size: large;
+            background-color: #e3e5e2;
+            color:#e71d36;
+            font-size: larger;
+            text-shadow: 2px 2px 3px rgba(20,20,20,0.3);
+            text-align: center;
+
+            box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.12);
+        }
+        .title2 {
+            background-image: url(Assets/Bg/Email.png);
+            padding: 8px 7%;
+            margin: 8px 0px 32px;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: #e3e5e2;
+            color:#e71d36;
+            text-shadow: 2px 2px 3px rgba(20,20,20,0.3);
+            text-align: center;
+
+            box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.2);
+        }
+        .title2 a {
+            color:#e71d36;
+            text-decoration: none;
+        }
+        .title2 h1 {
+            font-size: 32px;
         }
     </style>
 </head>
 
 <body>
-    <div class="header">
-        <img
+    <header class="header">
+        <a href="/"><img
             src="Assets/Logoblue.svg"
             alt="Ludmarus"
-            width="255" />
-    </div>
+            width="255" /></a>
+        </header>
 
-    <div class="nav">
+    <nav class="nav">
         <a href="/">Inicio</a>
 
         <a class="active" style="float:right" href="contacto">Contacto</a>
-    </div>
+    </nav>
 
-    <div class="title1"><h1>Dónde estoy</h1></div>
+    <main class="title1"><h1>Dónde estoy</h1></main>
 
-    <div class="links">
-        <a href="https://twitter.com/Ludmarus">Twitter</a>
-        <a href="https://discordapp.com/users/370571940621975553">Discord</a>
-        <a href="https://www.youtube.com/channel/UCubiv5LKWu809e1uvzfNyZg">Youtube</a>
-        <a href="https://steamcommunity.com/id/ludmarus/">Steam</a>
-        <a href="https://github.com/Ludmarus">GitHub</a>
-    </div>
+    <article class="links">
+        <a href="https://twitter.com/Ludmarus" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="https://discordapp.com/users/370571940621975553" target="_blank" rel="noopener noreferrer">Discord</a>
+        <a href="https://www.youtube.com/channel/UCubiv5LKWu809e1uvzfNyZg" target="_blank" rel="noopener noreferrer">Youtube</a>
+        <a href="https://steamcommunity.com/id/ludmarus/" target="_blank" rel="noopener noreferrer">Steam</a>
+        <a href="https://github.com/Ludmarus" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </article>
 
-    <div class="footer">
+    <article class="title2"><a href="mailto:ludmarus@tuta.io" target="_blank" rel="noopener noreferrer"><h1>Ludmarus@tuta.io</h1></a></article>
+
+    <footer class="footer">
         <p>By Ludmarus</p> <p>2021</p>
-    </div>
+    </footer>
 </body>
 </html>
