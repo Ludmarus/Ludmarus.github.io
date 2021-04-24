@@ -4,7 +4,7 @@
         }
 
         @font-face {
-            font-family: 'Streetwear';
+            font-family: Streetwear;
             src:url(../Assets/Fonts/Streetwear.woff) format("woff"),
                 url(../Assets/Fonts/Streetwear.ttf) format("truetype");
         }
@@ -40,25 +40,21 @@
             display: block;
             color: #fdfffc;
             text-align: center;
-            padding: 10px 18px 14px 18px;
+            padding: 10px 14px 8px 14px;
             text-decoration: none;
             
-            font-family: 'Streetwear', Helvetica;
+            font-family: Streetwear, Helvetica;
         }
 
-        .nav a:hover:not(.active) {
-            background-color: #cf1a30;
+        .nav a:hover {
+            /* background-color: #cf1a30; */
             color: #e3e5e2;
-        }
-
-        .active {
-            color: fdfffc;
         }
 
         .content {
             background-color: #011627;
             color: #fdfffc;
-            padding: 32px 7% 42px;
+            padding: 32px 10% 42px;
             font-size:larger;
         }
 
