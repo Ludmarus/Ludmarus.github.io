@@ -1,4 +1,29 @@
-title: Hola, soy Ludmarus
-description: Página personal
-twitter_username: Ludmarus
-github_username: Ludmarus
+# site settings
+title: Ludmarus
+subtitle: Blog y más
+email: Ludmarus@tuta.io
+description: Cosas de Ludmarus
+baseurl: "/"
+url: "https://Ludmarus.github.io"
+author: Ludmarus
+
+# social settings
+twitter_url: https://twitter.com/Ludmarus
+github_url: https://github.com/Ludmarus
+#linkedin_url: https://linkedin.com/
+
+collections:
+  projects:
+    output: true
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+plugins:
+  [jekyll-paginate]
+
+paginate: 5
+paginate_path: "/blog/page:num/"
