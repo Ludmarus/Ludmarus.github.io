@@ -1,64 +1,93 @@
----
----
 <!DOCTYPE html>
-<html dir="ltr" lang="es">
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }}</title>
-	<meta name="keywords" content="{{ site.keywords }}">
-	<meta name="description" content="{{ site.description }}">
-  <link rel="stylesheet" href="combo.css">
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
-	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+    <title>Inicio — Ludmarus</title>
+    <meta name="description" content="Bienvenido a Ludmarus"/> 
+    <meta name="author" content="Luis M"/>
+    <meta charset="utf-8"/>
+    <meta property="og:image" content="Assets/Bg/Candywrap"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="Assets/favicon.ico?" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <style>
+        body {
+            background-color: #011627;
+        }
+        .image1 {
+            background-image: url(Assets/Bg/Candywrap.png);
+            padding: 200px 7%;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+            background-size: cover;
+            background-color: #001323;
+
+            box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.5);
+        }
+        .image2 {
+            background-image: url(Assets/Bg/1638915049_preview_20190129134952_2.jpg);
+            padding: 300px 7%;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+            background-size: cover;
+            background-color: #001323;
+
+            box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.5);
+        }
+        .content {
+            text-align: center;
+        }
+        .contentdark {
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-  <div id="main">
+    <header class="header">
+        <a href="/"><img
+            src="Assets/Logoblue.svg"
+            alt="Ludmarus"
+            width="255" /></a>
+        </header>
 
-    <nav><ul>
-      {% for node in site.posts reversed %}
-        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
-      {% endfor %}
-    </ul></nav>
+    <nav class="nav">
+        <a class="active" href="/">Inicio</a>
 
+        <a style="float:right" href=contacto>Contacto</a>
+    </nav>
 
-    {% for page in site.posts reversed %}
-      {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
-      <div id="{{id}}" class="section p-{{id}}">
-        {% if page.icon %}
-        <div class="subtlecircle sectiondivider imaged">
-          <img src="{{page.icon}}" alt="section icon" />
-          <h5 class="icon-title">{{ page.title }}</h5>
-        </div>
-        {% elsif page.fa-icon %}
-        <div class="subtlecircle sectiondivider faicon">
-          <span class="fa-stack">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
-          </span>
-          <h5 class="icon-title">{{ page.title }}</h5>
-        </div>
-        {% endif %}
-        <div class="container {{ page.style }}">
-          {{ page.content }}
-        </div>
-      </div>
-    {% endfor %}
+    <main class="contentdark">
+        <h1 style="color:#e71d36">Hola, mundo.</h1>
+        <p>Me llamo Ludmarus, y esta es mi página web.</p>
+        <p>Esta página está aún en desarrollo. De momento, será empleada como nexo para todas mis redes sociales.</p>
+        <p>Tengo pensado añadir una sección de modding que incluya todos los mods de videojuegos que cree
+            (principalmente mapas), y probablemente un blog. También quiero incluír mi currículum.</p>
+        </main>
 
+    <div class="image1"></div>
 
-    <div id="footer" class="section text-white">
-      <div class="container">
-        {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {{ foottext | markdownify }}
-      </div>
-    </div>
-  </div>
+    <article class="content">
+        <h1 style="color:#e71d36">Quién soy</h1>
+        <p>Soy un burgalés de 21 años. Estudio Ingeniería Informática en la Universidad de Burgos (UBU).</p>
+        <p>Me gusta leer, el cine, los videojuegos, la arquitectura y, por supuesto, la informática.</p>
+        <p>Mi pasión son los videojuegos. Considero que son un medio con un gran potencial del cual aún
+            queda mucho por descubrir. Me gusta explorar nuevas formas de interacción y narrativa modificando
+            juegos ya existentes. Mi juego favorito para experimentar es Garry's Mod, debido a su naturaleza
+            abierta. Tengo pensado aprender a usar Unreal Engine para llevar a cabo proyectos más serios.</p>
+        <p>También estoy preparando un canal de Youtube de ensayo, aunque llevo diciendo eso mismo desde hace años...</p>
+    </article>
 
-{% include analytics.html %}
+    <div class="image2"></div>
+
+    <footer class="footer">
+        <p>By Ludmarus</p> <p>2021</p>
+    </footer>
 </body>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="site.js"></script>
 </html>

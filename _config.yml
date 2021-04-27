@@ -1,30 +1,4 @@
-### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
-permalink: /:title ## disables post output
-timezone: null
-lsi: false
-markdown: kramdown
-
-
-### content configuration ###
-title:       "Ludmarus'"
-keywords:    ""
-description: "Página personal de Ludmarus, blog y más."
-source_link: "https://github.com/t413/SinglePaged"
-favicon:     "img/favicon.ico"
-touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
-
-
-### template colors, used site-wide via css ###
-colors:
-  black:     '#000000'
-  white:     '#FDFFFC'
-  blue:      '#011627'
-  green:     '#0C7C59'
-  purple:    '#7C77B9'
-  orange:    '#DF9A57'
-  turquoise: '#E71D36'
-
-kramdown:
-  auto_ids:  false
+title: Ludmarus'
+description: Página personal
+twitter_username: Ludmarus
+github_username: Ludmarus
