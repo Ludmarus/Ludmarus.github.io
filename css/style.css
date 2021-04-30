@@ -5,8 +5,8 @@
 
         @font-face {
             font-family: Streetwear;
-            src:url(../Assets/Fonts/Streetwear.woff) format("woff"),
-                url(../Assets/Fonts/Streetwear.ttf) format("truetype");
+            src:url(../assets/fonts/Streetwear.woff) format("woff"),
+                url(../assets/fonts/Streetwear.ttf) format("truetype");
         }
 
         body {

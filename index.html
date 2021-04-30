@@ -2,12 +2,12 @@
 <html lang="es">
 <head>
     <title>Inicio — Ludmarus</title>
-    <meta name="description" content="Bienvenido a Ludmarus"/> 
-    <meta name="author" content="Luis M"/>
+    <meta name="description" content="Bienvenido a Ludmarus"/>
     <meta charset="utf-8"/>
-    <meta property="og:image" content="Assets/Bg/Candywrap"/>
+    <meta property="og:image" content="assets/bg/Candywrap"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="icon" href="Assets/favicon.ico?" type="image/x-icon"/>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="assets/favicon.ico?" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
     <style>
@@ -15,7 +15,7 @@
             background-color: #011627;
         }
         .image1 {
-            background-image: url(Assets/Bg/Candywrap.png);
+            background-image: url(assets/bg/Candywrap.png);
             padding: 200px 7%;
 
             background-position: center;
@@ -28,7 +28,7 @@
             box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.5);
         }
         .image2 {
-            background-image: url(Assets/Bg/1638915049_preview_20190129134952_2.jpg);
+            background-image: url(assets/bg/1638915049_preview_20190129134952_2.jpg);
             padding: 300px 7%;
 
             background-position: center;
@@ -50,7 +50,18 @@
 </head>
 
 <body>
-    {% include header.html %}
+    <header class="header">
+        <a href="/"><img
+            src="assets/Logoblue.svg"
+            alt="Ludmarus"
+            width="255" /></a>
+        </header>
+
+    <nav class="nav">
+        <a href="/">Inicio</a>
+
+        <a class="active" style="float:right" href="contacto">Contacto</a>
+    </nav>
 
     <main class="contentdark">
         <h1 style="color:#e71d36">Hola, mundo.</h1>
