@@ -5,16 +5,18 @@ title: Blog — Ludmarus
 
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta name="description" content="Test"/>
-</head>
 
 <body>
 <section>
-    <article class="content">
-        <h2>Test</h2>
-        <p>Test</p>
-    </article>
+    <main class="title1"><h1>Blog</h1></main>
+
+    <ul class="blog">
+        {% for post in site.posts %}
+          <li class="links">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
 </section>
 </body>
 </html>

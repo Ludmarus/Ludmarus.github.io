@@ -5,8 +5,8 @@
 
         @font-face {
             font-family: Streetwear;
-            src:url(../assets/fonts/Streetwear.woff) format("woff"),
-                url(../assets/fonts/Streetwear.ttf) format("truetype");
+            src:url(../fonts/Streetwear.woff) format("woff"),
+                url(../fonts/Streetwear.ttf) format("truetype");
         }
 
         body {
@@ -72,4 +72,42 @@
             font-size: smaller;
 
             box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.12);
+        }
+
+        .links a {
+            text-align: left;
+            display: block;
+            color: #011627;
+            text-decoration: none; 
+            font-family: Streetwear, Helvetica;
+            padding: 0px 0px 16px;
+        }
+
+        .links a:hover {
+            color: #cf1a30;
+        }
+
+        .title1 {
+            background-image: url(../bg/Dotsb2.png);
+            padding: 4px 7%;
+            margin: 32px 0px;
+    
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: #e3e5e2;
+            color:#e71d36;
+            font-size: larger;
+            text-shadow: 2px 2px 3px rgba(20,20,20,0.3);
+            text-align: left;
+    
+            box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.12);
+        }
+
+        .blog {
+            background-color: #fdfffc;
+            color: #011627;
+            padding: 0px 10% 0px;
+            font-size:large;
         }
