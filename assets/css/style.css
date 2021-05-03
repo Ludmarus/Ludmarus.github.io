@@ -1,19 +1,26 @@
-        * {
-            box-sizing: border-box;
-            font-family: Helvetica, sans-serif;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
         @font-face {
             font-family: Streetwear;
-            src:url(../fonts/Streetwear.woff) format("woff"),
-                url(../fonts/Streetwear.ttf) format("truetype");
+            src:url(/assets/fonts/Streetwear.woff) format("woff"),
+                url(/assets/fonts/Streetwear.ttf) format("truetype");
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Source Sans Pro', sans-serif;
         }
 
         body {
+            font-family: 'Source Sans Pro', sans-serif;
             margin: 0px;
             background-color: #fdfffc;
             color: #011627;
         }
+
+        h1 { font-size: 2em }
+        h2 { font-size: 1.5em }
+        p { font-size: 1em }
 
         .header {
             overflow: hidden;
@@ -28,7 +35,7 @@
             overflow: hidden;
             background-color: #e71d36;
             padding: 0% 5%;
-            margin: 0px 14px 0px 14px;
+            margin: 0px 14px 32px 14px;
             position: sticky;
             top: 0;
             box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.19);
@@ -46,22 +53,23 @@
         }
 
         .nav a:hover {
-            /* background-color: #cf1a30; */
             color: #e3e5e2;
         }
 
         .content {
             background-color: #fdfffc;
             color: #011627;
-            padding: 32px 10% 42px;
-            font-size:larger;
+            padding: 0px 10% 42px;
+            font-size:22px;
+            text-align: center;
         }
 
         .contentdark {
             background-color: #011627;
             color: #fdfffc;
-            padding: 32px 10% 42px;
-            font-size:larger;
+            padding: 8px 10% 42px;
+            font-size:22px;
+            text-align: center;
         }
 
        .footer {
@@ -69,17 +77,26 @@
             color: #011627;
             text-align: center;
             padding: 36px 7% 8px;
-            font-size: smaller;
+            text-decoration: none;
 
             box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.12);
+        }
+
+        .footer a {
+            color: #011627;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        .footer a:hover {
+            color: #cf1a30;
         }
 
         .links a {
             text-align: left;
             display: block;
             color: #011627;
-            text-decoration: none; 
-            font-family: Streetwear, Helvetica;
+            text-decoration: none;
             padding: 0px 0px 16px;
         }
 
@@ -88,7 +105,7 @@
         }
 
         .title1 {
-            background-image: url(../bg/Dotsb2.png);
+            background-image: url(/assets/bg/Dotsb2.png);
             padding: 4px 7%;
             margin: 32px 0px;
     
@@ -110,4 +127,19 @@
             color: #011627;
             padding: 0px 10% 0px;
             font-size:large;
+        }
+
+        .blog a{
+            text-decoration: none;
+            color:#011627;
+        }
+
+        .blog a:hover{
+            text-decoration: none;
+            color:#e71d36;
+        }
+
+        .post {
+            color: #011627;
+            padding: 0px 10% 0px; 
         }
