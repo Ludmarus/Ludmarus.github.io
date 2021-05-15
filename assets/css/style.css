@@ -29,7 +29,7 @@
             text-align: center;
             padding: 20px 5% 0px 5%;
             margin: 0px 0px 0px 0px;
-            box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.18);
         }
 
         .nav {
@@ -39,7 +39,7 @@
             margin: 0px 0px 0px 0px;
             position: sticky;
             top: 0;
-            box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.18);
         }
 
         .nav a {
