@@ -24,18 +24,19 @@
 
         .header {
             overflow: hidden;
-            background-color: #e71d36;
-            color: #fdfffc;
+            background-color: #fdfffc;
+            color: #000;
             text-align: center;
             padding: 20px 5% 0px 5%;
-            margin: 0px 14px 0px 14px;
+            margin: 0px 0px 0px 0px;
+            box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.19);
         }
 
         .nav {
             overflow: hidden;
-            background-color: #e71d36;
+            background-color: #fdfffc;
             padding: 0% 5%;
-            margin: 0px 14px 32px 14px;
+            margin: 0px 0px 0px 0px;
             position: sticky;
             top: 0;
             box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.19);
@@ -44,7 +45,7 @@
         .nav a {
             float: left;
             display: block;
-            color: #fdfffc;
+            color: #000;
             text-align: center;
             padding: 10px 14px 8px 14px;
             text-decoration: none;
@@ -53,7 +54,7 @@
         }
 
         .nav a:hover {
-            color: #e3e5e2;
+            color: #e71d36;
         }
 
         .content {
