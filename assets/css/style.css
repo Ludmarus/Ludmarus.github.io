@@ -26,6 +26,13 @@
         h2 { font-size: 1.5em }
         p { font-size: 1em }
 
+        ul { list-style-type: none }
+
+        h3 {
+            font-weight: 400;
+            margin: 0 0 16px;
+          }
+
         .header {
             overflow: hidden;
             background-color: #fdfffc;
