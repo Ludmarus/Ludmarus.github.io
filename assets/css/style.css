@@ -18,6 +18,10 @@
             color: #011627;
         }
 
+        .body2 {
+            margin: 0% 5%;
+        }
+
         h1 { font-size: 2em }
         h2 { font-size: 1.5em }
         p { font-size: 1em }
@@ -126,7 +130,7 @@
         .blog {
             background-color: #fdfffc;
             color: #011627;
-            padding: 0px 10% 0px;
+            padding: 0px 5% 0px;
             font-size:large;
         }
 
@@ -142,5 +146,5 @@
 
         .post {
             color: #011627;
-            padding: 0px 10% 0px; 
+            margin: 0% 10%;
         }
