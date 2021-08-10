@@ -14,7 +14,7 @@
         body {
             font-family: 'Source Sans Pro', sans-serif;
             margin: 0px;
-            background-color: #fdfffc;
+            background-color: #ffffff;
             color: #011627;
         }
 
@@ -35,7 +35,7 @@
 
         .header {
             overflow: hidden;
-            background-color: #fdfffc;
+            background-color: #ffffff;
             color: #000;
             text-align: center;
             padding: 20px 5% 0px 5%;
@@ -45,7 +45,7 @@
 
         .nav {
             overflow: hidden;
-            background-color: #fdfffc;
+            background-color: #ffffff;
             padding: 0% 5%;
             margin: 0px 0px 0px 0px;
             position: sticky;
@@ -69,7 +69,7 @@
         }
 
         .content {
-            background-color: #fdfffc;
+            background-color: #ffffff;
             color: #011627;
             padding: 0px 10% 42px;
             font-size: 1.2em;
@@ -78,7 +78,7 @@
 
         .contentdark {
             background-color: #011627;
-            color: #fdfffc;
+            color: #ffffff;
             padding: 8px 10% 42px;
             font-size: 1.2em;
             text-align: center;
@@ -135,7 +135,7 @@
         }
 
         .blog {
-            background-color: #fdfffc;
+            background-color: #ffffff;
             color: #011627;
             padding: 0px 5% 0px;
             font-size:large;
