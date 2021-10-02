@@ -18,7 +18,7 @@ title: Ludmarus'
             background-attachment: fixed;
             
             background-size: cover;
-            background-color: #001323;
+            background-color: var(--hblue);
 
             box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.5);
         }
@@ -31,23 +31,29 @@ title: Ludmarus'
             background-attachment: fixed;
             
             background-size: cover;
-            background-color: #001323;
+            background-color: var(--hblue);
 
             box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.5);
         }
 
+        h1 { font-size: 2.5em }
+
         @media (prefers-color-scheme: dark) {
             .image1 {
-                background-color: #120204;
+                background-color: var(--mred);
             }
+        }
+
+        @media screen and (max-width: 540px) {
+            h1 { font-size: 2em }
         }
     </style>
 </head>
 
 <body>
 <section>
-    <main class="contentdark">
-        <h1 style="color:#e71d36">I'm Ludmarus</h1>
+    <main class="content">
+        <h1 style="color:var(--red)">I'm Ludmarus</h1>
         <p>I'm a Computer Engineering student.</p>
         <p>I like art.</p>
         <p>I love modding videogames.</p>
@@ -55,8 +61,8 @@ title: Ludmarus'
 
     <div class="image1"></div>
 
-    <article class="contentdark">
-        <h1 style="color:#e71d36">What is this place</h1>
+    <article class="content">
+        <h1 style="color:var(--red)">What is this place</h1>
         <p>This is my personal website.</p>
         <p>It's also a blog.</p>
         <p>This website is work in progress.</p>

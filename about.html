@@ -17,23 +17,29 @@ title: About — Ludmarus
             background-attachment: fixed;
             
             background-size: cover;
-            background-color: #001323;
+            background-color: var(--hblue);
 
             box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.5);
         }
 
+        h1 { font-size: 2.5em }
+
         @media (prefers-color-scheme: dark) {
             .image1 {
-                background-color: #120204;
+                background-color: var(--hred);
             }
+        }
+
+        @media screen and (max-width: 540px) {
+            h1 { font-size: 2em }
         }
     </style>
 </head>
 
 <body>
 <section>
-    <article class="contentdark">
-        <h1 style="color:#e71d36">I'm just Ludmarus</h1>
+    <article class="content">
+        <h1 style="color:var(--red)">I'm just Ludmarus</h1>
         <p>Often known for my inappropriate sense of humor,</p>
         <p>Often considered a “good friend” for some reason,</p>
         <p>Never been in prison, so far,</p>
@@ -42,7 +48,7 @@ title: About — Ludmarus
 
     <div class=image1></div>
 
-    <article class="contentdark">
+    <article class="content">
         <p>I don't like social media,</p>
         <p>So, I thought "let's make a website"</p>
         <p>This is my poor attempt,</p>
