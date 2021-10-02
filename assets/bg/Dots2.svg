@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+    <defs>
+        <style>
+            .cls-1{fill:none;}
+            .cls-2{fill:#141414;}
+            .cls-3{fill:url(#Dots);}
+        </style>
+        <pattern id="Dots" data-name="Dots" width="72" height="72" patternUnits="userSpaceOnUse" viewBox="0 0 150 150">
+            <rect class="cls-1" width="150" height="150"/><rect class="cls-2" x="40" y="148" width="10" height="10"/>
+            <rect class="cls-2" x="130" y="124" width="10" height="10"/><rect class="cls-2" x="100" y="142" width="10" height="10"/>
+            <rect class="cls-2" x="70" y="130" width="10" height="10"/><rect class="cls-2" x="40" y="118" width="10" height="10"/>
+            <rect class="cls-2" x="10" y="136" width="10" height="10"/><rect class="cls-2" x="130" y="94" width="10" height="10"/>
+            <rect class="cls-2" x="100" y="112" width="10" height="10"/><rect class="cls-2" x="70" y="100" width="10" height="10"/>
+            <rect class="cls-2" x="40" y="88" width="10" height="10"/><rect class="cls-2" x="10" y="106" width="10" height="10"/>
+            <rect class="cls-2" x="130" y="64" width="10" height="10"/><rect class="cls-2" x="100" y="82" width="10" height="10"/>
+            <rect class="cls-2" x="70" y="70" width="10" height="10"/><rect class="cls-2" x="40" y="58" width="10" height="10"/>
+            <rect class="cls-2" x="10" y="76" width="10" height="10"/><rect class="cls-2" x="130" y="34" width="10" height="10"/>
+            <rect class="cls-2" x="100" y="52" width="10" height="10"/><rect class="cls-2" x="70" y="40" width="10" height="10"/>
+            <rect class="cls-2" x="40" y="28" width="10" height="10"/><rect class="cls-2" x="10" y="46" width="10" height="10"/>
+            <rect class="cls-2" x="130" y="4" width="10" height="10"/><rect class="cls-2" x="100" y="22" width="10" height="10"/>
+            <rect class="cls-2" x="70" y="10" width="10" height="10"/><rect class="cls-2" x="40" y="-2" width="10" height="10"/>
+            <rect class="cls-2" x="10" y="16" width="10" height="10"/><rect class="cls-2" x="100" y="-8" width="10" height="10"/>
+        </pattern>
+    </defs>
+    <g>
+        <rect class="cls-3" width="1366" height="768"/>
+    </g>
+</svg>

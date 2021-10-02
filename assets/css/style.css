@@ -11,6 +11,10 @@
             font-family: 'Source Sans Pro', sans-serif;
         }
 
+        svg:hover {
+            color: #e71d36;
+        }
+
         body {
             font-family: 'Source Sans Pro', sans-serif;
             margin: 0px;
@@ -38,9 +42,11 @@
             background-color: #ffffff;
             color: #000;
             text-align: center;
-            padding: 20px 5% 0px 5%;
+            padding: 20px 5% 10px 5%;
             margin: 0px 0px 0px 0px;
+            max-height: 200px;
             box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.10);
+            text-decoration: none;
         }
 
         .nav {
@@ -117,7 +123,7 @@
         }
 
         .title1 {
-            background-image: url(/assets/bg/Dotsb2.png);
+            background-image: url(/assets/bg/Dots2.svg);
             padding: 4px 7%;
             margin: 32px 0px;
     
@@ -155,4 +161,77 @@
             color: #011627;
             margin: 40px 10%;
             max-width: 1000px;
+        }
+
+
+
+
+        @media (prefers-color-scheme: dark) {
+            img {
+                opacity: .75;
+                transition: opacity .5s ease-in-out;
+              }
+              img:hover {
+                opacity: 1;
+              }
+
+
+            body {
+                background-color: #000;
+                color: #fff;
+            }
+    
+            .header {
+                background-color: #141414;
+                color: #fff;
+            }
+    
+            .nav {
+                background-color: #141414;
+            }
+    
+            .nav a {
+                color: #fff;
+            }
+    
+            .content {
+                background-color: #000;
+                color: #fff;
+            }
+    
+            .contentdark {
+                background-color: #000;
+                color: #fff;
+            }
+    
+           .footer {
+                background-color: #141414;
+                color: #fff;
+            }
+    
+            .footer a {
+                color: #fff;
+            }
+    
+            .links a {
+                color: #fff;
+            }
+    
+            .title1 {      
+                background-color: #000;
+            }
+    
+            .blog {
+                background-color: #000;
+                color: #fff;
+            }
+    
+            .blog a{
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            .post {
+                color: #fff;
+            }
         }
