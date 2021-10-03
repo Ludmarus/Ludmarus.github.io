@@ -27,30 +27,30 @@
 /* Navbar */
         .header {
             overflow: hidden;
-            background-color: var(--white);
-            color: var(--black);
+            background-color: var(--hblack);
+            color: var(--white);
             text-align: center;
             padding: 20px 5% 10px 5%;
             margin: 0px 0px 0px 0px;
             max-height: 200px;
-            box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.10);
+            /*box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.10);*/
             text-decoration: none;
         }
 
         .nav {
             overflow: hidden;
-            background-color: var(--white);
+            background-color: var(--hblack);
             padding: 0% 5%;
             margin: 0px 0px 0px 0px;
             position: sticky;
             top: 0;
-            box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.10);
+            /*box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 11px 10px 0 rgba(0, 0, 0, 0.10);*/
         }
 
         .nav a {
             float: left;
             display: block;
-            color: var(--black);
+            color: var(--white);
             text-align: center;
             padding: 10px 14px 8px 14px;
             text-decoration: none;
@@ -64,15 +64,15 @@
         
 /* Footer */
         .footer {
-            background-color: var(--hwhite);
-            color: var(--black);
+            background-color: var(--hblack);
+            color: var(--white);
             text-align: center;
             padding: 36px 7% 8px;
             text-decoration: none;
         }
 
         .footer a {
-            color: var(--black);
+            color: var(--white);
             text-decoration: none;
             padding: 5px;
         }
@@ -94,8 +94,8 @@
         }
 
         .content {
-            background-color: var(--blue);
-            color: var(--white);
+            background-color: var(--white);
+            color: var(--black);
             padding: 42px 10%;
             font-size: 1.1em;
             text-align: center;
