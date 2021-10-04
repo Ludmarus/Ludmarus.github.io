@@ -16,4 +16,4 @@ Of course, these aren't my only current projects. I also have college. I also wa
 
 I have updated (rewrited, really) the CSS of the site. I have also improved the accesibility from mobile devices. I'm far from satisfied with the current design of it all, but it's getting better. I'll keep on changing things.
 
-I also have added a dark theme.
+I have also added a dark theme.
