@@ -15,8 +15,8 @@
 
         @font-face {
             font-family: Streetwear;
-            src:url(/assets/fonts/Streetwear.woff) format("woff"),
-                url(/assets/fonts/Streetwear.ttf) format("truetype");
+            src:url(assets/fonts/Streetwear.woff) format("woff"),
+                url(assets/fonts/Streetwear.ttf) format("truetype");
         }
 
         * {
@@ -99,61 +99,7 @@
             padding: 42px 10%;
             font-size: 1.1em;
             text-align: center;
-        }
-
-/* Blog */
-        .blog {
-            background-color: var(--white);
-            color: var(--black);
-            padding: 0px 20% 0px;
-            min-width: 512px;
-        }
-
-        .blog a{
-            text-decoration: none;
-            color: var(--black);
-        }
-
-        .blog a:hover{
-            color: var(--red);
-        }
-
-        .blogTitle {
-            padding: 4px 7%;
-            margin: 32px 0px;
-
-            color:var(--black);
-            font-size: larger;
-            text-align: left;
-        }
-
-        .blogWrap {
-            width: 90%;
-            margin: 0 auto;
-        }
-
-        #blogPost {
-            color: var(--black);
-            text-align: justify;
-            text-justify: auto;
-            float: left;
-        }
-
-        #blogSidebar {
-            text-decoration: none;
-            float: left;
-        }
-
-        #blogSidebar a{
-            text-decoration: none;
-            color: var(--black);
-        }
-
-        #blogSidebar a:hover{
-            color: var(--red);
-        }
-
-        
+        }        
 
 
 /*******************************************************/
@@ -205,34 +151,7 @@
             background-color: var(--black);
             color: var(--white);
         }
-
-/* Blog */
-        .blog {
-            background-color: var(--black);
-            color: var(--white);
-        }
-
-        .blog a{
-            text-decoration: none;
-            color: var(--white);
-        }
-
-        #blogPost {
-            color: var(--white);
-        }
-        
-        #blogTitle {
-            background-color: var(--black);
-            color:var(--white);
-        }
-
-        #blogSidebar a{
-            text-decoration: none;
-            color: var(--white);
-        }
 }
-
-
 
 
 /*******************************************************/
@@ -286,59 +205,4 @@
             font-size: 1em;
             text-align: center;
         }
-
-/* Blog */
-        .blog {
-            padding: 0px 10% 0px;
-        }
-
-        .blogWrap {
-            width: 90%;
-        }
-
-        #blogPost {
-            margin: 40px auto;
-            float: left;
-            width: 100%;
-        }
-
-        #blogSidebar {
-            float: left;
-            width: 100%;
-            min-width: none;
-        }
-        
-        .blogTitle {
-            padding: 4px 5%;
-            margin: 32px 0px;
-
-            font-size: medium;
-            text-align: left;
-        }
-}
-
-
-
-
-/*******************************************************/
-/*                     DESKTOP ONLY                    */
-/*******************************************************/
-
-@media screen and (min-width: 1400px) {
-
-/* Blog */
-    .blogWrap {
-        max-width: 1300px;
-    }
-
-    #blogPost {
-        float: left;
-        width: 75%;
-    }
-
-    #blogSidebar {
-        float: left;
-        width: 25%;
-    }
-    
 }
